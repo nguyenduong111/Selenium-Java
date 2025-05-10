@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL" value="https://demo.workdo.io/hrmgo/login"/>
+    <test name="D:/Tester/ProjectHRM">
+        <classes>
+<!--            <class name="com.testcases.LoginPageTest"/>-->
+<!--            <class name="com.testcases.LoginPageTest">-->
+<!--                <methods>-->
+<!--                    <include name="LoginWithEmptyEmail"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.testcases.LoginPageTest"/>
+            <class name="com.testcases.SideBarTest"/>
+        </classes>
+    </test>
+</suite>
