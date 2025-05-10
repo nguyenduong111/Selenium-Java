@@ -4,6 +4,7 @@ import com.common.BaseSetup;
 import com.common.Constants;
 import com.common.LanguageClass;
 import com.common.TestListener;
+import com.common.ultilities.LogUtils;
 import com.pages.LoginPage;
 import com.pages.SideBar;
 import org.openqa.selenium.JavascriptExecutor;
@@ -46,7 +47,8 @@ public class SideBarTest extends BaseSetup {
 
     @Test(priority = 1)
     public void VerifySideBarItems() throws InterruptedException {
-        System.out.println("TC-1");
+        LogUtils.info("TC-16");
+
         sideBar.clickLanguageMenu();   // open
 //        sideBar.getSideBarItemsText();
 
@@ -56,7 +58,9 @@ public class SideBarTest extends BaseSetup {
 
     @Test(priority = 2)
     public void VerifySelectLanguage() throws InterruptedException {
-        System.out.println("TC-2");
+        LogUtils.info("TC-17");
+
+
         sideBar.clickLanguageMenu();
         List<WebElement> listLanguageItems = sideBar.getMenuLanguage();
         System.out.println(listLanguageItems.size());
@@ -69,7 +73,8 @@ public class SideBarTest extends BaseSetup {
 
     @Test(priority = 3)
     public void VerifySideBarItemsAfterSelectLanguage() throws InterruptedException {
-        System.out.println("TC-3");
+        LogUtils.info("TC-18");
+
 //        sideBar.clickLanguageMenu();
         List<String> listSideBarItemsTitle = sideBar.getSideBarItemsText();
         String[] chineseTitles = LanguageClass.getTitles("chinese");
@@ -84,7 +89,8 @@ public class SideBarTest extends BaseSetup {
 
     @Test(priority = 4)
     public void VerifySideBarItemsAfterSelectEnglish() throws InterruptedException {
-        System.out.println("TC-4");
+        LogUtils.info("TC-19");
+
         sideBar.clickLanguageMenu();
 
         List<WebElement> listLanguageItems = sideBar.getMenuLanguage();
@@ -107,7 +113,7 @@ public class SideBarTest extends BaseSetup {
 
         @Test(priority = 5)
         public void VerifyPopUpChangeLanguage() throws InterruptedException {
-            System.out.println("TC-5");
+            LogUtils.info("TC-20");
             sideBar.clickLanguageMenu();
 
             List<WebElement> listLanguageItems = sideBar.getMenuLanguage();

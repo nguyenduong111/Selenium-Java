@@ -3,6 +3,7 @@ package com.testcases;
 import com.common.BaseSetup;
 import com.common.Constants;
 import com.common.TestListener;
+import com.common.ultilities.LogUtils;
 import com.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -42,7 +43,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 1)
     public void LoginWithValidCredentials() throws InterruptedException {
-        System.out.println("TC-1");
+        LogUtils.info("TC-1");
 
         loginPage.sendEmail("company@example.com");
         loginPage.sendPassword("1234");
@@ -54,7 +55,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 2)
     public void LoginWithInvalidEmail() throws InterruptedException {
-        System.out.println("TC-2");
+        LogUtils.info("TC-2");
 
         loginPage.sendEmail("123@example.com");
         loginPage.sendPassword("1234");
@@ -66,7 +67,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 3)
     public void LoginWithInvalidPassword() throws InterruptedException {
-        System.out.println("TC-3");
+        LogUtils.info("TC-3");
 
         loginPage.sendEmail("company@example.com");
         loginPage.sendPassword("1sdf5");
@@ -78,7 +79,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 4)
     public void LoginWithInvalidEmailAndPassword() throws InterruptedException {
-        System.out.println("TC-4");
+        LogUtils.info("TC-4");
 
         loginPage.sendEmail("123@example.com");
         loginPage.sendPassword("1sdf");
@@ -90,7 +91,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 5)
     public void LoginWithEmptyEmail() throws InterruptedException {
-        System.out.println("TC-5");
+        LogUtils.info("TC-5");
 
         loginPage.sendEmail("");
         loginPage.sendPassword("1234");
@@ -104,7 +105,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 6)
     public void LoginWithEmptyPassword() throws InterruptedException {
-        System.out.println("TC-6");
+        LogUtils.info("TC-6");
 
         loginPage.sendEmail("company@example.com");
         loginPage.sendPassword("");
@@ -118,7 +119,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 7)
     public void LoginWithEmptyEmailAndPassword() throws InterruptedException {
-        System.out.println("TC-7");
+        LogUtils.info("TC-7");
 
         loginPage.sendEmail("");
         loginPage.sendPassword("");
@@ -135,7 +136,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 8)
     public void LoginWithInvalidEmailFormat() throws InterruptedException {
-        System.out.println("TC-8");
+        LogUtils.info("TC-8");
 
         loginPage.sendEmail("companyexample.com");
         loginPage.sendPassword("1234");
@@ -148,7 +149,7 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 9)
     public void LoginWithInvalidPasswordFormat() throws InterruptedException {
-        System.out.println("TC-9");
+        LogUtils.info("TC-9");
 
 //        loginPage.sendEmail("company@example.com");
         loginPage.sendPassword("123");
@@ -161,13 +162,15 @@ public class LoginPageTest extends BaseSetup {
 
     @Test(priority = 10)
     public void VerifyForgotPasswordLink() throws InterruptedException {
-        System.out.println("TC-10");
+        LogUtils.info("TC-10");
+
         Assert.assertTrue(loginPage.checkForgotPasswordVisibility(), "The \"Forgot Your Password?\" link is visible on the page.\n");
     }
 
     @Test(priority = 11)
     public void VerifyForgotPasswordLinkIsClickable() throws InterruptedException {
-        System.out.println("TC-11");
+        LogUtils.info("TC-11");
+
         loginPage.clickForgotPasswordLink();
 
         Assert.assertTrue(driver.getCurrentUrl().contains(Constants.LOGIN_PAGE.URL_FORGOT_PASSWORD), "Verify \"Forgot Your Password?\" link is clickable\n");

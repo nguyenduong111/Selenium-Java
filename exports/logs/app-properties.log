@@ -1,0 +1,33 @@
+[INFO] 10-05-2025 16:24:18 [main] LogUtils - TC-1: LoginWithValidCredentials
+[INFO] 10-05-2025 16:43:47 [main] LogUtils - TC-1
+[INFO] 10-05-2025 16:43:53 [main] LogUtils - LoginWithValidCredentials - PASS
+[INFO] 10-05-2025 16:43:56 [main] LogUtils - TC-2
+[INFO] 10-05-2025 16:44:01 [main] LogUtils - LoginWithInvalidEmail - PASS
+[INFO] 10-05-2025 16:44:05 [main] LogUtils - TC-3
+[INFO] 10-05-2025 16:44:10 [main] LogUtils - LoginWithInvalidPassword - PASS
+[INFO] 10-05-2025 16:44:14 [main] LogUtils - TC-4
+[INFO] 10-05-2025 16:44:18 [main] LogUtils - LoginWithInvalidEmailAndPassword - PASS
+[INFO] 10-05-2025 16:44:22 [main] LogUtils - TC-5
+[INFO] 10-05-2025 16:44:26 [main] LogUtils - LoginWithEmptyEmail - PASS
+[INFO] 10-05-2025 16:44:29 [main] LogUtils - TC-6
+[INFO] 10-05-2025 16:44:33 [main] LogUtils - LoginWithEmptyPassword - PASS
+[INFO] 10-05-2025 16:44:36 [main] LogUtils - TC-7
+[INFO] 10-05-2025 16:44:40 [main] LogUtils - LoginWithEmptyEmailAndPassword - PASS
+[INFO] 10-05-2025 16:44:43 [main] LogUtils - TC-8
+[INFO] 10-05-2025 16:44:47 [main] LogUtils - LoginWithInvalidEmailFormat - PASS
+[INFO] 10-05-2025 16:44:50 [main] LogUtils - TC-9
+[INFO] 10-05-2025 16:44:55 [main] LogUtils - LoginWithInvalidPasswordFormat - PASS
+[INFO] 10-05-2025 16:44:59 [main] LogUtils - TC-10
+[INFO] 10-05-2025 16:44:59 [main] LogUtils - VerifyForgotPasswordLink - PASS
+[INFO] 10-05-2025 16:45:03 [main] LogUtils - TC-11
+[INFO] 10-05-2025 16:45:04 [main] LogUtils - VerifyForgotPasswordLinkIsClickable - PASS
+[INFO] 10-05-2025 16:45:15 [main] LogUtils - TC-16
+[INFO] 10-05-2025 16:45:25 [main] LogUtils - VerifySideBarItems - PASS
+[INFO] 10-05-2025 16:45:25 [main] LogUtils - TC-17
+[INFO] 10-05-2025 16:45:41 [main] LogUtils - VerifySelectLanguage - PASS
+[INFO] 10-05-2025 16:45:41 [main] LogUtils - TC-18
+[INFO] 10-05-2025 16:45:42 [main] LogUtils - VerifySideBarItemsAfterSelectLanguage - PASS
+[INFO] 10-05-2025 16:45:42 [main] LogUtils - TC-19
+[INFO] 10-05-2025 16:45:55 [main] LogUtils - VerifySideBarItemsAfterSelectEnglish - PASS
+[INFO] 10-05-2025 16:45:55 [main] LogUtils - TC-20
+[INFO] 10-05-2025 16:46:09 [main] LogUtils - VerifyPopUpChangeLanguage - PASS
