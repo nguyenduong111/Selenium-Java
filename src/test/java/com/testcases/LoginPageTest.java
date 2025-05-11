@@ -4,6 +4,7 @@ import com.common.BaseSetup;
 import com.common.Constants;
 import com.common.TestListener;
 import com.common.ultilities.LogUtils;
+import com.common.ultilities.PropertiesFile;
 import com.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -34,6 +35,7 @@ public class LoginPageTest extends BaseSetup {
         driver = initChromeDriver();
         driver.navigate().to(Constants.LOGIN_PAGE.URL_LOGIN);
         loginPage = new LoginPage(driver);
+        PropertiesFile.setPropertiesFile();
     }
 
     @AfterMethod
@@ -45,8 +47,10 @@ public class LoginPageTest extends BaseSetup {
     public void LoginWithValidCredentials() throws InterruptedException {
         LogUtils.info("TC-1");
 
-        loginPage.sendEmail("company@example.com");
-        loginPage.sendPassword("1234");
+//        loginPage.sendEmail("company@example.com");
+//        loginPage.sendPassword("1234");
+        loginPage.sendEmail(PropertiesFile.getPropValue("email"));
+        loginPage.sendPassword(PropertiesFile.getPropValue("password"));
         loginPage.clickLoginButton();
         Thread.sleep(3000);
 

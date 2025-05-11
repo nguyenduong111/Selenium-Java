@@ -31,3 +31,40 @@
 [INFO] 10-05-2025 16:45:55 [main] LogUtils - VerifySideBarItemsAfterSelectEnglish - PASS
 [INFO] 10-05-2025 16:45:55 [main] LogUtils - TC-20
 [INFO] 10-05-2025 16:46:09 [main] LogUtils - VerifyPopUpChangeLanguage - PASS
+[INFO] 11-05-2025 11:52:32 [main] LogUtils - TC-1
+[ERROR] 11-05-2025 11:52:35 [main] LogUtils - LoginWithValidCredentials - Verify successful login for a standard valid user expected [https://demo.workdo.io/hrmgo/dashboard] but found [https://demo.workdo.io/hrmgo/login]
+[INFO] 11-05-2025 11:52:38 [main] LogUtils - TC-2
+[INFO] 11-05-2025 11:52:42 [main] LogUtils - LoginWithInvalidEmail - PASS
+[INFO] 11-05-2025 11:52:44 [main] LogUtils - TC-3
+[ERROR] 11-05-2025 11:52:44 [main] LogUtils - LoginWithInvalidPassword - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.93)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbc23ad40f30871a7425e0af9571106f, findElement {value=//input[@id='email'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64411/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc23ad40f30871a7425e0af9571106f
+[INFO] 11-05-2025 11:52:46 [main] LogUtils - TC-4
+[ERROR] 11-05-2025 11:52:46 [main] LogUtils - LoginWithInvalidEmailAndPassword - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.93)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8822374d02663fc6873bc34e30540f7, findElement {value=//input[@id='email'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64425/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8822374d02663fc6873bc34e30540f7
+[INFO] 11-05-2025 11:52:48 [main] LogUtils - TC-5
+[ERROR] 11-05-2025 11:52:48 [main] LogUtils - LoginWithEmptyEmail - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.93)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa536d22e391e2eef923c8014852dbbd, findElement {value=//input[@id='email'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64449/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa536d22e391e2eef923c8014852dbbd
+[INFO] 11-05-2025 11:54:10 [main] LogUtils - TC-1
+[INFO] 11-05-2025 11:54:16 [main] LogUtils - LoginWithValidCredentials - PASS
+[INFO] 11-05-2025 11:54:19 [main] LogUtils - TC-2
