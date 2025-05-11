@@ -32,7 +32,7 @@ public class SideBarTest extends BaseSetup {
         sideBar = new SideBar(driver);
         loginPage = new LoginPage(driver);
 
-        TestListener.setExcellFile(Constants.SIDE_BAR.EXCEL_PATH, Constants.SIDE_BAR.SHEET_NAME, 1, 11);
+        TestListener.setExcellFile(driver, Constants.SIDE_BAR.EXCEL_PATH, Constants.SIDE_BAR.SHEET_NAME, 1, 11);
     }
 
     @BeforeClass

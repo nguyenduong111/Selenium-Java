@@ -1,7 +1,9 @@
 package com.common;
 
+import com.common.helpers.CaptureHelpers;
 import com.common.helpers.ExcelHelpers;
 import com.common.ultilities.LogUtils;
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -10,8 +12,10 @@ public class TestListener implements ITestListener {
     static ExcelHelpers excelHelpers = new ExcelHelpers();
     static int rownum;
     static int colnum;
+    static WebDriver driver;
 
-    public static void setExcellFile(String ExcelPath, String SheetName, int row, int col) throws Exception {
+    public static void setExcellFile(WebDriver d, String ExcelPath, String SheetName, int row, int col) throws Exception {
+        driver = d;
         excelHelpers.setExcelFile(ExcelPath, SheetName);
         rownum = row;
         colnum = col;
@@ -41,6 +45,7 @@ public class TestListener implements ITestListener {
     public void onTestFailure(ITestResult arg0) {
         try {
             excelHelpers.setCellData("FAIL", rownum, colnum);
+            CaptureHelpers.captureScreenshot(driver, "Fail - " + arg0.getName());
             LogUtils.error(arg0.getName() +" - " + arg0.getThrowable().getMessage());
             rownum++;
         } catch (Exception e) {
@@ -65,6 +70,7 @@ public class TestListener implements ITestListener {
     public void onTestSuccess(ITestResult arg0) {
         try {
             excelHelpers.setCellData("PASS", rownum, colnum);
+            CaptureHelpers.captureScreenshot(driver, "Pass - " + arg0.getName());
             LogUtils.info(arg0.getName() +" - " + "PASS");
             rownum++;
         } catch (Exception e) {

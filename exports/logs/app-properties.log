@@ -68,3 +68,79 @@ Session ID: aa536d22e391e2eef923c8014852dbbd
 [INFO] 11-05-2025 11:54:10 [main] LogUtils - TC-1
 [INFO] 11-05-2025 11:54:16 [main] LogUtils - LoginWithValidCredentials - PASS
 [INFO] 11-05-2025 11:54:19 [main] LogUtils - TC-2
+[INFO] 11-05-2025 12:13:10 [main] LogUtils - TC-1
+[INFO] 11-05-2025 12:13:13 [main] LogUtils - LoginWithValidCredentials - PASS
+[INFO] 11-05-2025 12:13:17 [main] LogUtils - TC-2
+[INFO] 11-05-2025 12:13:21 [main] LogUtils - LoginWithInvalidEmail - PASS
+[INFO] 11-05-2025 12:13:24 [main] LogUtils - TC-3
+[INFO] 11-05-2025 12:13:29 [main] LogUtils - LoginWithInvalidPassword - PASS
+[INFO] 11-05-2025 12:13:32 [main] LogUtils - TC-4
+[INFO] 11-05-2025 12:13:35 [main] LogUtils - LoginWithInvalidEmailAndPassword - PASS
+[INFO] 11-05-2025 12:13:39 [main] LogUtils - TC-5
+[INFO] 11-05-2025 12:13:42 [main] LogUtils - LoginWithEmptyEmail - PASS
+[INFO] 11-05-2025 12:13:45 [main] LogUtils - TC-6
+[INFO] 11-05-2025 12:13:48 [main] LogUtils - LoginWithEmptyPassword - PASS
+[INFO] 11-05-2025 12:13:52 [main] LogUtils - TC-7
+[INFO] 11-05-2025 12:13:55 [main] LogUtils - LoginWithEmptyEmailAndPassword - PASS
+[INFO] 11-05-2025 12:13:58 [main] LogUtils - TC-8
+[INFO] 11-05-2025 12:14:01 [main] LogUtils - LoginWithInvalidEmailFormat - PASS
+[INFO] 11-05-2025 12:14:05 [main] LogUtils - TC-9
+[INFO] 11-05-2025 12:14:08 [main] LogUtils - LoginWithInvalidPasswordFormat - PASS
+[INFO] 11-05-2025 12:14:11 [main] LogUtils - TC-10
+[INFO] 11-05-2025 12:14:11 [main] LogUtils - VerifyForgotPasswordLink - PASS
+[INFO] 11-05-2025 12:14:14 [main] LogUtils - TC-11
+[INFO] 11-05-2025 12:14:15 [main] LogUtils - VerifyForgotPasswordLinkIsClickable - PASS
+[INFO] 11-05-2025 12:21:13 [main] LogUtils - TC-1
+[INFO] 11-05-2025 12:21:18 [main] LogUtils - LoginWithValidCredentials - PASS
+[INFO] 11-05-2025 12:21:22 [main] LogUtils - TC-2
+[INFO] 11-05-2025 12:21:26 [main] LogUtils - LoginWithInvalidEmail - PASS
+[INFO] 11-05-2025 12:21:29 [main] LogUtils - TC-3
+[INFO] 11-05-2025 12:21:33 [main] LogUtils - LoginWithInvalidPassword - PASS
+[INFO] 11-05-2025 12:21:38 [main] LogUtils - TC-4
+[INFO] 11-05-2025 12:21:42 [main] LogUtils - LoginWithInvalidEmailAndPassword - PASS
+[INFO] 11-05-2025 12:21:45 [main] LogUtils - TC-5
+[INFO] 11-05-2025 12:21:48 [main] LogUtils - LoginWithEmptyEmail - PASS
+[INFO] 11-05-2025 12:21:52 [main] LogUtils - TC-6
+[INFO] 11-05-2025 12:21:55 [main] LogUtils - LoginWithEmptyPassword - PASS
+[INFO] 11-05-2025 12:21:59 [main] LogUtils - TC-7
+[INFO] 11-05-2025 12:22:02 [main] LogUtils - LoginWithEmptyEmailAndPassword - PASS
+[INFO] 11-05-2025 12:22:05 [main] LogUtils - TC-8
+[INFO] 11-05-2025 12:22:08 [main] LogUtils - LoginWithInvalidEmailFormat - PASS
+[INFO] 11-05-2025 12:22:12 [main] LogUtils - TC-9
+[INFO] 11-05-2025 12:22:15 [main] LogUtils - LoginWithInvalidPasswordFormat - PASS
+[INFO] 11-05-2025 12:22:19 [main] LogUtils - TC-10
+[INFO] 11-05-2025 12:22:19 [main] LogUtils - VerifyForgotPasswordLink - PASS
+[INFO] 11-05-2025 12:22:22 [main] LogUtils - TC-11
+[INFO] 11-05-2025 12:22:23 [main] LogUtils - VerifyForgotPasswordLinkIsClickable - PASS
+[INFO] 11-05-2025 13:40:25 [main] LogUtils - TC-1
+[INFO] 11-05-2025 13:40:31 [main] LogUtils - LoginWithValidCredentials - PASS
+[INFO] 11-05-2025 13:40:34 [main] LogUtils - TC-2
+[INFO] 11-05-2025 13:40:39 [main] LogUtils - LoginWithInvalidEmail - PASS
+[INFO] 11-05-2025 13:40:42 [main] LogUtils - TC-3
+[INFO] 11-05-2025 13:40:46 [main] LogUtils - LoginWithInvalidPassword - PASS
+[INFO] 11-05-2025 13:40:50 [main] LogUtils - TC-4
+[INFO] 11-05-2025 13:40:54 [main] LogUtils - LoginWithInvalidEmailAndPassword - PASS
+[INFO] 11-05-2025 13:40:57 [main] LogUtils - TC-5
+[INFO] 11-05-2025 13:41:01 [main] LogUtils - LoginWithEmptyEmail - PASS
+[INFO] 11-05-2025 13:41:04 [main] LogUtils - TC-6
+[INFO] 11-05-2025 13:41:07 [main] LogUtils - LoginWithEmptyPassword - PASS
+[INFO] 11-05-2025 13:41:11 [main] LogUtils - TC-7
+[INFO] 11-05-2025 13:41:14 [main] LogUtils - LoginWithEmptyEmailAndPassword - PASS
+[INFO] 11-05-2025 13:41:17 [main] LogUtils - TC-8
+[INFO] 11-05-2025 13:41:20 [main] LogUtils - LoginWithInvalidEmailFormat - PASS
+[INFO] 11-05-2025 13:41:24 [main] LogUtils - TC-9
+[INFO] 11-05-2025 13:41:28 [main] LogUtils - LoginWithInvalidPasswordFormat - PASS
+[INFO] 11-05-2025 13:41:32 [main] LogUtils - TC-10
+[INFO] 11-05-2025 13:41:32 [main] LogUtils - VerifyForgotPasswordLink - PASS
+[INFO] 11-05-2025 13:41:35 [main] LogUtils - TC-11
+[INFO] 11-05-2025 13:41:36 [main] LogUtils - VerifyForgotPasswordLinkIsClickable - PASS
+[INFO] 11-05-2025 13:41:47 [main] LogUtils - TC-16
+[INFO] 11-05-2025 13:41:57 [main] LogUtils - VerifySideBarItems - PASS
+[INFO] 11-05-2025 13:41:57 [main] LogUtils - TC-17
+[INFO] 11-05-2025 13:42:13 [main] LogUtils - VerifySelectLanguage - PASS
+[INFO] 11-05-2025 13:42:13 [main] LogUtils - TC-18
+[INFO] 11-05-2025 13:42:13 [main] LogUtils - VerifySideBarItemsAfterSelectLanguage - PASS
+[INFO] 11-05-2025 13:42:13 [main] LogUtils - TC-19
+[INFO] 11-05-2025 13:42:26 [main] LogUtils - VerifySideBarItemsAfterSelectEnglish - PASS
+[INFO] 11-05-2025 13:42:26 [main] LogUtils - TC-20
+[INFO] 11-05-2025 13:42:39 [main] LogUtils - VerifyPopUpChangeLanguage - PASS

@@ -3,11 +3,13 @@ package com.testcases;
 import com.common.BaseSetup;
 import com.common.Constants;
 import com.common.TestListener;
+import com.common.helpers.CaptureHelpers;
 import com.common.ultilities.LogUtils;
 import com.common.ultilities.PropertiesFile;
 import com.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 
@@ -27,7 +29,7 @@ public class LoginPageTest extends BaseSetup {
 
     @BeforeClass
     public void beforeClass() throws Exception {
-        TestListener.setExcellFile(Constants.LOGIN_PAGE.EXCEL_PATH, Constants.LOGIN_PAGE.SHEET_NAME, 1, 11);
+        TestListener.setExcellFile(driver, Constants.LOGIN_PAGE.EXCEL_PATH, Constants.LOGIN_PAGE.SHEET_NAME, 1, 11);
     }
 
     @BeforeMethod
@@ -39,7 +41,8 @@ public class LoginPageTest extends BaseSetup {
     }
 
     @AfterMethod
-    public void afterMethod() {
+    public void afterMethod(ITestResult result) throws Exception {
+        CaptureHelpers.captureScreenshot(driver, result.getName());
         driver.quit();
     }
 
