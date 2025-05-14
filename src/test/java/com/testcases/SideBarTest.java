@@ -18,6 +18,7 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Objects;
 
+// TC about side bar and change language relates to side bar
 @Listeners(TestListener.class)
 public class SideBarTest extends BaseSetup {
     WebDriver driver;

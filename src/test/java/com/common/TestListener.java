@@ -56,7 +56,14 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult arg0) {
-        // TODO Auto-generated method stub
+        try {
+            excelHelpers.setCellData("HOLDING", rownum, colnum);
+            CaptureHelpers.captureScreenshot(driver, "Holding - " + arg0.getName());
+            LogUtils.error(arg0.getName() +" - " + arg0.getThrowable().getMessage());
+            rownum++;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
     }
 

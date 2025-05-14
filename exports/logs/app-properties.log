@@ -144,3 +144,216 @@ Session ID: aa536d22e391e2eef923c8014852dbbd
 [INFO] 11-05-2025 13:42:26 [main] LogUtils - VerifySideBarItemsAfterSelectEnglish - PASS
 [INFO] 11-05-2025 13:42:26 [main] LogUtils - TC-20
 [INFO] 11-05-2025 13:42:39 [main] LogUtils - VerifyPopUpChangeLanguage - PASS
+[INFO] 12-05-2025 17:24:11 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 17:24:15 [main] LogUtils - TC-17-1: Verify data table
+[INFO] 12-05-2025 17:47:22 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 17:47:28 [main] LogUtils - TC-17-1: Verify data table
+[INFO] 12-05-2025 17:48:17 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 17:48:24 [main] LogUtils - TC-17-1: Verify data table
+[ERROR] 12-05-2025 17:48:47 [main] LogUtils - VerifyDataTable - no such element: Unable to locate element: {"method":"tag name","selector":"th"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c7cfb58b229aae5bacfeb6d535415d7, findChildElement {using=tag name, value=th, id=f.72A75679552CD0F36DD0CD0B64B6198B.d.F912ECA3F025FB4FBF94E88FEF6AC9EA.e.93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59682/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c7cfb58b229aae5bacfeb6d535415d7
+[INFO] 12-05-2025 17:50:27 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 17:50:31 [main] LogUtils - TC-17-1: Verify data table
+[INFO] 12-05-2025 17:50:35 [main] LogUtils - VerifyDataTable - PASS
+[INFO] 12-05-2025 17:52:35 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 17:52:41 [main] LogUtils - TC-17-1: Verify data table
+[INFO] 12-05-2025 17:52:45 [main] LogUtils - VerifyDataTable - PASS
+[INFO] 12-05-2025 23:13:52 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 23:13:56 [main] LogUtils - TC-17-1: Verify data table
+[INFO] 12-05-2025 23:32:25 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 23:32:31 [main] LogUtils - TC-21
+[ERROR] 12-05-2025 23:32:53 [main] LogUtils - VerifySearchButtonWithoutFilters - no such element: Unable to locate element: {"method":"xpath","selector":".//td[2]"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c5b85e8cf8b662c8c2e3740e047f7d0, findChildElement {id=f.8FF3D680083D44BC76D3DCB3975B3E9C.d.A892F6AE20E9AA5310188F2E092FF256.e.112, value=.//td[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56494}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56494/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c5b85e8cf8b662c8c2e3740e047f7d0
+[INFO] 12-05-2025 23:35:57 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 23:36:01 [main] LogUtils - TC-21
+[INFO] 12-05-2025 23:36:26 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 12-05-2025 23:50:52 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 23:50:59 [main] LogUtils - TC-21
+[INFO] 12-05-2025 23:51:49 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 12-05-2025 23:51:55 [main] LogUtils - TC-21
+[INFO] 12-05-2025 23:52:20 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 12-05-2025 23:52:20 [main] LogUtils - TC-22
+[INFO] 12-05-2025 23:52:23 [main] LogUtils - VerifySearchButtonWithFilters - PASS
+[INFO] 13-05-2025 00:04:39 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 13-05-2025 00:04:45 [main] LogUtils - TC-21
+[INFO] 13-05-2025 00:05:10 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 13-05-2025 00:05:10 [main] LogUtils - TC-22
+[ERROR] 13-05-2025 00:05:30 [main] LogUtils - VerifySearchButtonWithFilters - Cannot locate option with value: Julie workdo
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: driver.version: unknown
+[INFO] 13-05-2025 00:06:38 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 13-05-2025 00:06:44 [main] LogUtils - TC-21
+[INFO] 13-05-2025 00:07:09 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 13-05-2025 00:07:09 [main] LogUtils - TC-22
+[ERROR] 13-05-2025 00:07:14 [main] LogUtils - VerifySearchButtonWithFilters - Verify that the table has data did not expect [2] but found [2]
+[INFO] 13-05-2025 00:08:49 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 13-05-2025 00:08:55 [main] LogUtils - TC-21
+[INFO] 13-05-2025 00:09:19 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 13-05-2025 00:09:19 [main] LogUtils - TC-22
+[INFO] 13-05-2025 00:09:24 [main] LogUtils - VerifySearchButtonWithFilters - PASS
+[INFO] 14-05-2025 14:56:22 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 14-05-2025 14:56:28 [main] LogUtils - TC-21
+[INFO] 14-05-2025 14:56:53 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 14-05-2025 14:56:53 [main] LogUtils - TC-22
+[INFO] 14-05-2025 14:56:58 [main] LogUtils - VerifySearchButtonWithFilters - PASS
+[INFO] 14-05-2025 15:14:27 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 14-05-2025 15:14:32 [main] LogUtils - TC-23
+[INFO] 14-05-2025 15:14:33 [main] LogUtils - FilterByEmployeeAll - PASS
+[INFO] 14-05-2025 15:24:17 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 14-05-2025 15:24:23 [main] LogUtils - TC-24
+[INFO] 14-05-2025 15:24:27 [main] LogUtils - FilterByDate - PASS
+[INFO] 14-05-2025 15:35:05 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 14-05-2025 15:35:09 [main] LogUtils - TC-21
+[INFO] 14-05-2025 15:35:33 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 14-05-2025 15:35:33 [main] LogUtils - TC-22
+[INFO] 14-05-2025 15:35:38 [main] LogUtils - FilterByEmployee - PASS
+[INFO] 14-05-2025 15:35:38 [main] LogUtils - TC-23
+[INFO] 14-05-2025 15:35:40 [main] LogUtils - FilterByEmployeeAll - PASS
+[INFO] 14-05-2025 15:35:40 [main] LogUtils - TC-24
+[INFO] 14-05-2025 15:35:42 [main] LogUtils - FilterByDate - PASS
+[INFO] 14-05-2025 15:35:42 [main] LogUtils - TC-25
+[ERROR] 14-05-2025 15:35:43 [main] LogUtils - FilterByStartDateOnly - TC is holding
+[INFO] 14-05-2025 15:43:08 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 14-05-2025 15:43:13 [main] LogUtils - TC-30
+[INFO] 14-05-2025 15:44:01 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 14-05-2025 15:44:08 [main] LogUtils - TC-30
+[INFO] 14-05-2025 15:44:09 [main] LogUtils - GeneralTableSearchByKeyword - PASS
+[INFO] 14-05-2025 15:47:30 [main] LogUtils - TC-1
+[INFO] 14-05-2025 15:47:33 [main] LogUtils - LoginWithValidCredentials - PASS
+[INFO] 14-05-2025 15:47:37 [main] LogUtils - TC-2
+[INFO] 14-05-2025 15:47:41 [main] LogUtils - LoginWithInvalidEmail - PASS
+[INFO] 14-05-2025 15:47:45 [main] LogUtils - TC-3
+[INFO] 14-05-2025 15:47:48 [main] LogUtils - LoginWithInvalidPassword - PASS
+[INFO] 14-05-2025 15:47:52 [main] LogUtils - TC-4
+[INFO] 14-05-2025 15:47:55 [main] LogUtils - LoginWithInvalidEmailAndPassword - PASS
+[INFO] 14-05-2025 15:48:00 [main] LogUtils - TC-5
+[INFO] 14-05-2025 15:48:04 [main] LogUtils - LoginWithEmptyEmail - PASS
+[INFO] 14-05-2025 15:48:07 [main] LogUtils - TC-6
+[INFO] 14-05-2025 15:48:10 [main] LogUtils - LoginWithEmptyPassword - PASS
+[INFO] 14-05-2025 15:48:14 [main] LogUtils - TC-7
+[INFO] 14-05-2025 15:48:17 [main] LogUtils - LoginWithEmptyEmailAndPassword - PASS
+[INFO] 14-05-2025 15:48:21 [main] LogUtils - TC-8
+[INFO] 14-05-2025 15:48:24 [main] LogUtils - LoginWithInvalidEmailFormat - PASS
+[INFO] 14-05-2025 15:48:27 [main] LogUtils - TC-9
+[INFO] 14-05-2025 15:48:31 [main] LogUtils - LoginWithInvalidPasswordFormat - PASS
+[INFO] 14-05-2025 15:48:34 [main] LogUtils - TC-10
+[INFO] 14-05-2025 15:48:34 [main] LogUtils - VerifyForgotPasswordLink - PASS
+[INFO] 14-05-2025 15:48:38 [main] LogUtils - TC-11
+[INFO] 14-05-2025 15:48:39 [main] LogUtils - VerifyForgotPasswordLinkIsClickable - PASS
+[INFO] 14-05-2025 15:48:48 [main] LogUtils - TC-16
+[INFO] 14-05-2025 15:48:57 [main] LogUtils - VerifySideBarItems - PASS
+[INFO] 14-05-2025 15:48:57 [main] LogUtils - TC-17
+[INFO] 14-05-2025 15:49:14 [main] LogUtils - VerifySelectLanguage - PASS
+[INFO] 14-05-2025 15:49:14 [main] LogUtils - TC-18
+[INFO] 14-05-2025 15:49:15 [main] LogUtils - VerifySideBarItemsAfterSelectLanguage - PASS
+[INFO] 14-05-2025 15:49:15 [main] LogUtils - TC-19
+[INFO] 14-05-2025 15:49:28 [main] LogUtils - VerifySideBarItemsAfterSelectEnglish - PASS
+[INFO] 14-05-2025 15:49:28 [main] LogUtils - TC-20
+[INFO] 14-05-2025 15:49:41 [main] LogUtils - VerifyPopUpChangeLanguage - PASS
+[INFO] 14-05-2025 15:49:47 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 14-05-2025 15:49:51 [main] LogUtils - TC-25
+[ERROR] 14-05-2025 15:49:51 [main] LogUtils - FilterByStartDateOnly - TC is holding
+[INFO] 14-05-2025 15:49:51 [main] LogUtils - TC-26
+[ERROR] 14-05-2025 15:49:52 [main] LogUtils - tc26 - TC is holding
+[INFO] 14-05-2025 15:49:52 [main] LogUtils - TC-27
+[ERROR] 14-05-2025 15:49:52 [main] LogUtils - tc27 - TC is holding
+[INFO] 14-05-2025 15:49:52 [main] LogUtils - TC-28
+[ERROR] 14-05-2025 15:49:52 [main] LogUtils - tc28 - TC is holding
+[INFO] 14-05-2025 15:49:52 [main] LogUtils - TC-29
+[ERROR] 14-05-2025 15:49:52 [main] LogUtils - tc29 - TC is holding
+[INFO] 14-05-2025 15:49:52 [main] LogUtils - TC-31
+[ERROR] 14-05-2025 15:49:52 [main] LogUtils - tc31 - TC is holding
+[INFO] 14-05-2025 15:49:52 [main] LogUtils - TC-32
+[ERROR] 14-05-2025 15:49:53 [main] LogUtils - tc32 - TC is holding
+[INFO] 14-05-2025 15:49:53 [main] LogUtils - TC-33
+[ERROR] 14-05-2025 15:49:53 [main] LogUtils - tc33 - TC is holding
+[INFO] 14-05-2025 15:49:53 [main] LogUtils - TC-34
+[ERROR] 14-05-2025 15:49:53 [main] LogUtils - tc34 - TC is holding
+[INFO] 14-05-2025 15:49:53 [main] LogUtils - TC-21
+[INFO] 14-05-2025 15:50:14 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 14-05-2025 15:50:14 [main] LogUtils - TC-22
+[INFO] 14-05-2025 15:50:16 [main] LogUtils - FilterByEmployee - PASS
+[INFO] 14-05-2025 15:50:16 [main] LogUtils - TC-23
+[INFO] 14-05-2025 15:50:18 [main] LogUtils - FilterByEmployeeAll - PASS
+[INFO] 14-05-2025 15:50:18 [main] LogUtils - TC-24
+[INFO] 14-05-2025 15:50:20 [main] LogUtils - FilterByDate - PASS
+[INFO] 14-05-2025 15:50:20 [main] LogUtils - TC-30
+[INFO] 14-05-2025 15:50:21 [main] LogUtils - GeneralTableSearchByKeyword - PASS
+[INFO] 14-05-2025 15:53:51 [main] LogUtils - TC-1
+[INFO] 14-05-2025 15:54:21 [main] LogUtils - TC-1
+[INFO] 14-05-2025 15:54:27 [main] LogUtils - LoginWithValidCredentials - PASS
+[INFO] 14-05-2025 15:54:30 [main] LogUtils - TC-2
+[INFO] 14-05-2025 15:54:34 [main] LogUtils - LoginWithInvalidEmail - PASS
+[INFO] 14-05-2025 15:54:39 [main] LogUtils - TC-3
+[INFO] 14-05-2025 15:54:44 [main] LogUtils - LoginWithInvalidPassword - PASS
+[INFO] 14-05-2025 15:54:47 [main] LogUtils - TC-4
+[INFO] 14-05-2025 15:54:52 [main] LogUtils - LoginWithInvalidEmailAndPassword - PASS
+[INFO] 14-05-2025 15:54:55 [main] LogUtils - TC-5
+[INFO] 14-05-2025 15:54:59 [main] LogUtils - LoginWithEmptyEmail - PASS
+[INFO] 14-05-2025 15:55:02 [main] LogUtils - TC-6
+[INFO] 14-05-2025 15:55:05 [main] LogUtils - LoginWithEmptyPassword - PASS
+[INFO] 14-05-2025 15:55:09 [main] LogUtils - TC-7
+[INFO] 14-05-2025 15:55:12 [main] LogUtils - LoginWithEmptyEmailAndPassword - PASS
+[INFO] 14-05-2025 15:55:16 [main] LogUtils - TC-8
+[INFO] 14-05-2025 15:55:19 [main] LogUtils - LoginWithInvalidEmailFormat - PASS
+[INFO] 14-05-2025 15:55:23 [main] LogUtils - TC-9
+[INFO] 14-05-2025 15:55:28 [main] LogUtils - LoginWithInvalidPasswordFormat - PASS
+[INFO] 14-05-2025 15:55:32 [main] LogUtils - TC-10
+[INFO] 14-05-2025 15:55:32 [main] LogUtils - VerifyForgotPasswordLink - PASS
+[INFO] 14-05-2025 15:55:36 [main] LogUtils - TC-11
+[INFO] 14-05-2025 15:55:37 [main] LogUtils - VerifyForgotPasswordLinkIsClickable - PASS
+[INFO] 14-05-2025 15:55:46 [main] LogUtils - TC-16
+[INFO] 14-05-2025 15:55:55 [main] LogUtils - VerifySideBarItems - PASS
+[INFO] 14-05-2025 15:55:55 [main] LogUtils - TC-17
+[INFO] 14-05-2025 15:56:11 [main] LogUtils - VerifySelectLanguage - PASS
+[INFO] 14-05-2025 15:56:11 [main] LogUtils - TC-18
+[INFO] 14-05-2025 15:56:12 [main] LogUtils - VerifySideBarItemsAfterSelectLanguage - PASS
+[INFO] 14-05-2025 15:56:12 [main] LogUtils - TC-19
+[INFO] 14-05-2025 15:56:25 [main] LogUtils - VerifySideBarItemsAfterSelectEnglish - PASS
+[INFO] 14-05-2025 15:56:25 [main] LogUtils - TC-20
+[INFO] 14-05-2025 15:56:39 [main] LogUtils - VerifyPopUpChangeLanguage - PASS
+[INFO] 14-05-2025 15:56:44 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 14-05-2025 15:56:51 [main] LogUtils - TC-21
+[INFO] 14-05-2025 15:57:13 [main] LogUtils - VerifySearchButtonWithoutFilters - PASS
+[INFO] 14-05-2025 15:57:13 [main] LogUtils - TC-22
+[INFO] 14-05-2025 15:57:15 [main] LogUtils - FilterByEmployee - PASS
+[INFO] 14-05-2025 15:57:15 [main] LogUtils - TC-23
+[INFO] 14-05-2025 15:57:16 [main] LogUtils - FilterByEmployeeAll - PASS
+[INFO] 14-05-2025 15:57:16 [main] LogUtils - TC-24
+[INFO] 14-05-2025 15:57:19 [main] LogUtils - FilterByDate - PASS
+[INFO] 14-05-2025 15:57:19 [main] LogUtils - TC-25
+[ERROR] 14-05-2025 15:57:20 [main] LogUtils - FilterByStartDateOnly - TC is holding
+[INFO] 14-05-2025 15:57:20 [main] LogUtils - TC-26
+[ERROR] 14-05-2025 15:57:20 [main] LogUtils - tc26 - TC is holding
+[INFO] 14-05-2025 15:57:20 [main] LogUtils - TC-27
+[ERROR] 14-05-2025 15:57:20 [main] LogUtils - tc27 - TC is holding
+[INFO] 14-05-2025 15:57:20 [main] LogUtils - TC-28
+[ERROR] 14-05-2025 15:57:20 [main] LogUtils - tc28 - TC is holding
+[INFO] 14-05-2025 15:57:20 [main] LogUtils - TC-29
+[ERROR] 14-05-2025 15:57:20 [main] LogUtils - tc29 - TC is holding
+[INFO] 14-05-2025 15:57:20 [main] LogUtils - TC-30
+[INFO] 14-05-2025 15:57:22 [main] LogUtils - GeneralTableSearchByKeyword - PASS
+[INFO] 14-05-2025 15:57:22 [main] LogUtils - TC-31
+[ERROR] 14-05-2025 15:57:22 [main] LogUtils - tc31 - TC is holding
+[INFO] 14-05-2025 15:57:22 [main] LogUtils - TC-32
+[ERROR] 14-05-2025 15:57:22 [main] LogUtils - tc32 - TC is holding
+[INFO] 14-05-2025 15:57:22 [main] LogUtils - TC-33
+[ERROR] 14-05-2025 15:57:22 [main] LogUtils - tc33 - TC is holding
+[INFO] 14-05-2025 15:57:22 [main] LogUtils - TC-34
+[ERROR] 14-05-2025 15:57:23 [main] LogUtils - tc34 - TC is holding

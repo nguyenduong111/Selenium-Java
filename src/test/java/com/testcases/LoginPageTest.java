@@ -13,6 +13,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 
+// TC about login page
 @Listeners(TestListener.class)
 public class LoginPageTest extends BaseSetup {
     Constants constants = new Constants();

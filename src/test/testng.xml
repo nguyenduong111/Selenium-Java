@@ -5,14 +5,14 @@
     <parameter name="appURL" value="https://demo.workdo.io/hrmgo/login"/>
     <test name="D:/Tester/ProjectHRM">
         <classes>
-<!--            <class name="com.testcases.LoginPageTest"/>-->
-<!--            <class name="com.testcases.LoginPageTest">-->
-<!--                <methods>-->
-<!--                    <include name="LoginWithEmptyEmail"/>-->
-<!--                </methods>-->
-<!--            </class>-->
             <class name="com.testcases.LoginPageTest"/>
             <class name="com.testcases.SideBarTest"/>
+            <class name="com.testcases.TimeSheetTest"/>
+<!--            <class name="com.testcases.TimeSheetTest">-->
+<!--                <methods>-->
+<!--                    <include name="GeneralTableSearchByKeyword"/>-->
+<!--                </methods>-->
+<!--            </class>-->
         </classes>
     </test>
 </suite>

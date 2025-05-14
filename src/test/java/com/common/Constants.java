@@ -36,4 +36,11 @@ public class Constants {
         public static final String SHEET_NAME = "Change_Language";
     }
 
+    public static class TIME_SHEET_PAGE {
+        public static final String EXCEL_PATH = "src/test/resources/report_demo.xlsx";
+        public static final String SHEET_NAME = "Table";
+        public static final String URL_TIME_SHEET = "https://demo.workdo.io/hrmgo/timesheet";
+        public static final String TIME_SHEET_TITLE = "Manage Timesheet";
+    }
+
 }
