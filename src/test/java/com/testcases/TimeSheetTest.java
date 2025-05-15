@@ -3,6 +3,7 @@ package com.testcases;
 import com.common.BaseSetup;
 import com.common.TestListener;
 import com.common.TimeSheetData;
+import com.common.helpers.JDBC;
 import com.common.ultilities.LogUtils;
 import com.common.ultilities.PropertiesFile;
 import com.pages.LoginPage;
@@ -15,6 +16,7 @@ import org.testng.annotations.Listeners;
 import com.common.Constants;
 import org.testng.annotations.Test;
 
+import java.sql.ResultSet;
 import java.util.List;
 
 //TC about time sheet and data table
@@ -70,9 +72,29 @@ public class TimeSheetTest extends BaseSetup {
         List<TimeSheetData> timeSheetData = timeSheetPage.getTimeSheetTableBody();
 //        Thread.sleep(3000);
 
-        System.out.println("------------" + timeSheetData.size());
-        Assert.assertEquals(timeSheetData.size(), 2, "Verify that the table has data");
-        Assert.assertEquals(timeSheetData.get(0).getEmployee(), name, "Verify that the table has data");
+        List<String> listNameEmployee_DB = new java.util.ArrayList<String>();
+        String tableName = "time_sheet_data";
+        try {
+            JDBC db = new JDBC(PropertiesFile.getPropValue("db_timeSheet"));
+            String query =
+                    "select employee from " + tableName +
+                    " where employee = '" + name + "'";
+            ResultSet rs = db.executeQuery(query);
+            while (rs.next()) {
+                listNameEmployee_DB.add(rs.getString("employee"));
+            }
+            db.closeConnection();
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        Assert.assertEquals(timeSheetData.size(), listNameEmployee_DB.size(), "Verify that the table has data");
+
+        if (timeSheetData.size() == listNameEmployee_DB.size()) {
+            for (int i = 0; i < timeSheetData.size(); i++) {
+                Assert.assertEquals(timeSheetData.get(i).getEmployee(), listNameEmployee_DB.get(i), "Verify that the table has data");
+            }
+        }
     }
 
     @Test(priority = 3)

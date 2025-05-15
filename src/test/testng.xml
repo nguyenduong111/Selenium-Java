@@ -10,7 +10,7 @@
             <class name="com.testcases.TimeSheetTest"/>
 <!--            <class name="com.testcases.TimeSheetTest">-->
 <!--                <methods>-->
-<!--                    <include name="GeneralTableSearchByKeyword"/>-->
+<!--                    <include name="FilterByEmployee"/>-->
 <!--                </methods>-->
 <!--            </class>-->
         </classes>

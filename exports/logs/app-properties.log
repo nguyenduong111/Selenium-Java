@@ -357,3 +357,21 @@ Driver info: driver.version: unknown
 [ERROR] 14-05-2025 15:57:22 [main] LogUtils - tc33 - TC is holding
 [INFO] 14-05-2025 15:57:22 [main] LogUtils - TC-34
 [ERROR] 14-05-2025 15:57:23 [main] LogUtils - tc34 - TC is holding
+[INFO] 15-05-2025 07:14:39 [main] LogUtils - TC-1
+[INFO] 15-05-2025 07:14:58 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 15-05-2025 07:15:05 [main] LogUtils - TC-22
+[INFO] 15-05-2025 07:15:07 [main] LogUtils - Connected to DB successfully.
+[ERROR] 15-05-2025 07:15:07 [main] LogUtils - Query execution failed. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Julie workdo'' at line 1
+[ERROR] 15-05-2025 07:15:07 [main] LogUtils - FilterByEmployee - Verify that the table has data expected [0] but found [2]
+[INFO] 15-05-2025 07:18:13 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 15-05-2025 07:18:18 [main] LogUtils - TC-22
+[INFO] 15-05-2025 07:18:20 [main] LogUtils - Connected to DB successfully.
+[INFO] 15-05-2025 07:18:20 [main] LogUtils - Query executed successfully.
+[INFO] 15-05-2025 07:18:20 [main] LogUtils - Connection closed.
+[INFO] 15-05-2025 07:18:20 [main] LogUtils - FilterByEmployee - PASS
+[INFO] 15-05-2025 07:26:26 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 15-05-2025 07:26:32 [main] LogUtils - TC-22
+[INFO] 15-05-2025 07:26:34 [main] LogUtils - Connected to DB successfully.
+[INFO] 15-05-2025 07:26:34 [main] LogUtils - Query executed successfully.
+[INFO] 15-05-2025 07:26:34 [main] LogUtils - Connection closed.
+[INFO] 15-05-2025 07:26:34 [main] LogUtils - FilterByEmployee - PASS
