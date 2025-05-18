@@ -40,4 +40,4 @@ build/
 *~
 .idea/
 exports
-src/test/resources/configs.properties
+configs.properties

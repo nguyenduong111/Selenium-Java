@@ -375,3 +375,9 @@ Driver info: driver.version: unknown
 [INFO] 15-05-2025 07:26:34 [main] LogUtils - Query executed successfully.
 [INFO] 15-05-2025 07:26:34 [main] LogUtils - Connection closed.
 [INFO] 15-05-2025 07:26:34 [main] LogUtils - FilterByEmployee - PASS
+[INFO] 15-05-2025 07:35:56 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 15-05-2025 07:36:00 [main] LogUtils - TC-22
+[INFO] 15-05-2025 07:36:01 [main] LogUtils - Connected to DB successfully.
+[INFO] 15-05-2025 07:36:01 [main] LogUtils - Query executed successfully.
+[INFO] 15-05-2025 07:36:01 [main] LogUtils - Connection closed.
+[INFO] 15-05-2025 07:36:01 [main] LogUtils - FilterByEmployee - PASS
