@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -46,7 +47,7 @@ public class BaseSetup {
 
     public WebDriver initChromeDriver() {
         System.out.println("Launching Chrome browser...");
-        System.setProperty("webdriver.chrome.driver", driverChromePath);
+//        System.setProperty("webdriver.chrome.driver", driverChromePath);
 
         ChromeOptions options = new ChromeOptions();
 
@@ -59,23 +60,16 @@ public class BaseSetup {
         prefs.put("profile.password_manager_enabled", false);
         options.setExperimentalOption("prefs", prefs);
 
+
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(options);
+//        WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         return driver;
     }
-//
-//    private static WebDriver initFirefoxDriver(String appURL) {
-//        System.out.println("Launching Firefox browser...");
-//        System.setProperty("webdriver.gecko.driver", driverPath + "geckodriver.exe");
-//        WebDriver driver = new FirefoxDriver();
-//        driver.manage().window().maximize();
-//        driver.navigate().to(appURL);
-//        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-//        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-//        return driver;
-//    }
+
 
     // Chạy hàm initializeTestBaseSetup trước hết khi class này được gọi
     @Parameters({"browserType", "appURL"})

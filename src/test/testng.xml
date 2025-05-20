@@ -8,16 +8,16 @@
 <!--            <class name="com.testcases.LoginPageTest"/>-->
 <!--            <class name="com.testcases.SideBarTest"/>-->
 <!--            <class name="com.testcases.TimeSheetTest"/>-->
-                <class name="com.testcases.CookieTest"/>
+<!--                <class name="com.testcases.CookieTest"/>-->
 
 
 
 
-<!--            <class name="com.testcases.TimeSheetTest">-->
-<!--                <methods>-->
-<!--                    <include name="FilterByEmployee"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="com.testcases.TimeSheetTest">
+                <methods>
+                    <include name="FilterByEmployee"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
