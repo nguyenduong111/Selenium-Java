@@ -9,15 +9,17 @@
 <!--            <class name="com.testcases.SideBarTest"/>-->
 <!--            <class name="com.testcases.TimeSheetTest"/>-->
 <!--                <class name="com.testcases.CookieTest"/>-->
+            <class name="com.testcases.ProfilePageTest"/>
 
 
 
 
-            <class name="com.testcases.TimeSheetTest">
-                <methods>
-                    <include name="pageWithEntriesPerPage"/>
-                </methods>
-            </class>
+<!--            <class name="com.testcases.TimeSheetTest">-->
+<!--                <methods>-->
+<!--                    <include name="pageWithEntriesPerPage"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
         </classes>
     </test>
 </suite>

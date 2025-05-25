@@ -410,3 +410,12 @@ Driver info: driver.version: unknown
 [INFO] 25-05-2025 18:11:43 [main] LogUtils - Login and go to TimeSheet page
 [INFO] 25-05-2025 18:11:47 [main] LogUtils - TC-35
 [INFO] 25-05-2025 18:11:54 [main] LogUtils - pageWithEntriesPerPage - PASS
+[INFO] 25-05-2025 23:53:08 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 23:53:12 [main] LogUtils - Click Change profile avatar
+[INFO] 25-05-2025 23:53:18 [main] LogUtils - Send profile avatar
+[INFO] 25-05-2025 23:55:09 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 23:55:13 [main] LogUtils - Click Change profile avatar
+[INFO] 25-05-2025 23:55:13 [main] LogUtils - Send profile avatar
+[INFO] 25-05-2025 23:57:34 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 23:57:38 [main] LogUtils - Click Change profile avatar
+[INFO] 25-05-2025 23:57:38 [main] LogUtils - Send profile avatar

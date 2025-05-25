@@ -39,5 +39,5 @@ build/
 
 *~
 .idea/
-exports
+exports/
 configs.properties

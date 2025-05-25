@@ -45,4 +45,8 @@ public class Constants {
         public static final String URL_MANAGE_LEAVE = "https://demo.workdo.io/hrmgo/leave";
     }
 
+    public static class PROFILE_PAGE {
+        public static final String URL_PROFILE = "https://demo.workdo.io/hrmgo/profile#Personal_Info";
+    }
+
 }
