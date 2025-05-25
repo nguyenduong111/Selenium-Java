@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 public class TimeSheetPage {
@@ -32,6 +33,10 @@ public class TimeSheetPage {
 
     private final By e_timeSheetTable_header = By.xpath("//table[@id='pc-dt-simple']//thead//tr//th");
     private final By e_timeSheetTable_body = By.xpath("//tbody//tr");
+
+    private final By e_entriesPerPage_select = By.xpath("//select[@class='dataTable-selector']");
+    private final By e_infoTotalTtems_text = By.xpath("//div[@class='dataTable-info']");
+    private final By e_nextPage_button = By.xpath("//a[contains(text(),'›')]");
 
     public String getTimeSheetTitleText() {
         wait.until(ExpectedConditions.visibilityOfElementLocated(e_timeSheetTitle_text));
@@ -118,4 +123,47 @@ public class TimeSheetPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(e_searchInput_input));
         driver.findElement(e_searchInput_input).sendKeys(keyword);
     }
+
+    public List<String> selectEntriesPerPage(String entriesPerPage) {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(e_entriesPerPage_select));
+        Select selectItemsPerPage = new Select(driver.findElement(e_entriesPerPage_select));
+
+        List<String> listItems = new ArrayList<String>();
+        List<WebElement> selectedOptions = selectItemsPerPage.getOptions();
+
+//        System.out.println("Selected options: " + selectedOptions.size());
+        for(WebElement e : selectedOptions) {
+            System.out.println(e.getText());
+            listItems.add(e.getText());
+        }
+
+        selectItemsPerPage.selectByVisibleText(entriesPerPage);
+
+        return listItems;
+    }
+
+    public void pagnationData(String entriesPerPage) throws Exception {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(e_infoTotalTtems_text));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(e_nextPage_button));
+
+        WebElement infoTotalItems = driver.findElement(e_infoTotalTtems_text);
+
+        String info = infoTotalItems.getText();
+        System.out.println(info);
+
+        String[] items = info.split(" ");
+        System.out.println("Total Items: " + items[5]);
+        int totalItems = Integer.parseInt(items[5].trim());
+
+        float totalPage = (float) totalItems / Integer.parseInt(entriesPerPage);
+        int int_totalPage = (int) Math.ceil(totalPage);
+        System.out.println("Total Page: " + int_totalPage);
+
+        for(int i = 0; i < int_totalPage-1; i++) {
+            driver.findElement(e_nextPage_button).click();
+            Thread.sleep(3000);
+        }
+    }
+
+
 }

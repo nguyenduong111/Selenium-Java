@@ -187,6 +187,20 @@ public class TimeSheetTest extends BaseSetup {
         throw new SkipException("TC is holding");
     }
 
+    @Test(priority = 15)
+    public void pageWithEntriesPerPage() throws Exception {
+        LogUtils.info("TC-35");
+        
+         driver.navigate().to(Constants.TIME_SHEET_PAGE.URL_MANAGE_LEAVE);
+         String entriesPerPage = "5";
+
+         List<String> listItems = timeSheetPage.selectEntriesPerPage(entriesPerPage);
+
+         Assert.assertEquals(listItems.size(), 5, "Verify that the display options show maximum items on 1 page");
+
+         timeSheetPage.pagnationData(entriesPerPage);
+    }
+
 
 
 

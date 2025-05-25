@@ -41,6 +41,8 @@ public class Constants {
         public static final String SHEET_NAME = "Table";
         public static final String URL_TIME_SHEET = "https://demo.workdo.io/hrmgo/timesheet";
         public static final String TIME_SHEET_TITLE = "Manage Timesheet";
+
+        public static final String URL_MANAGE_LEAVE = "https://demo.workdo.io/hrmgo/leave";
     }
 
 }

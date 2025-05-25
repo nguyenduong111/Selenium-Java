@@ -393,3 +393,20 @@ Driver info: driver.version: unknown
 [INFO] 20-05-2025 16:05:33 [main] LogUtils - Query executed successfully.
 [INFO] 20-05-2025 16:05:33 [main] LogUtils - Connection closed.
 [INFO] 20-05-2025 16:05:34 [main] LogUtils - FilterByEmployee - PASS
+[INFO] 25-05-2025 17:26:08 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 17:26:12 [main] LogUtils - TC-35
+[INFO] 25-05-2025 17:26:55 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 17:27:01 [main] LogUtils - TC-35
+[INFO] 25-05-2025 17:27:02 [main] LogUtils - pageWithEntriesPerPage - PASS
+[INFO] 25-05-2025 17:28:39 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 17:28:43 [main] LogUtils - TC-35
+[INFO] 25-05-2025 17:28:44 [main] LogUtils - pageWithEntriesPerPage - PASS
+[INFO] 25-05-2025 17:33:39 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 17:33:45 [main] LogUtils - TC-35
+[INFO] 25-05-2025 17:33:47 [main] LogUtils - pageWithEntriesPerPage - PASS
+[INFO] 25-05-2025 17:50:52 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 17:50:58 [main] LogUtils - TC-35
+[INFO] 25-05-2025 17:50:59 [main] LogUtils - pageWithEntriesPerPage - PASS
+[INFO] 25-05-2025 18:11:43 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 25-05-2025 18:11:47 [main] LogUtils - TC-35
+[INFO] 25-05-2025 18:11:54 [main] LogUtils - pageWithEntriesPerPage - PASS

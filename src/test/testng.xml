@@ -15,7 +15,7 @@
 
             <class name="com.testcases.TimeSheetTest">
                 <methods>
-                    <include name="FilterByEmployee"/>
+                    <include name="pageWithEntriesPerPage"/>
                 </methods>
             </class>
         </classes>
