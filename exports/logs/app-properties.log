@@ -419,3 +419,24 @@ Driver info: driver.version: unknown
 [INFO] 25-05-2025 23:57:34 [main] LogUtils - Login and go to TimeSheet page
 [INFO] 25-05-2025 23:57:38 [main] LogUtils - Click Change profile avatar
 [INFO] 25-05-2025 23:57:38 [main] LogUtils - Send profile avatar
+[INFO] 27-05-2025 01:10:22 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 27-05-2025 01:10:28 [main] LogUtils - TC-22
+[INFO] 27-05-2025 01:10:30 [main] LogUtils - Connected to DB successfully.
+[ERROR] 27-05-2025 01:10:31 [main] LogUtils - Query execution failed. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''time_sheet_data'Where employee = 'Julie workdo'' at line 1
+[ERROR] 27-05-2025 01:10:31 [main] LogUtils - FilterByEmployee - Verify that the table has data expected [0] but found [2]
+[INFO] 27-05-2025 01:12:15 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 27-05-2025 01:12:22 [main] LogUtils - TC-22
+[INFO] 27-05-2025 01:12:23 [main] LogUtils - Connected to DB successfully.
+[ERROR] 27-05-2025 01:12:24 [main] LogUtils - Query execution failed. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''time_sheet_data' Where employee = 'Julie workdo'' at line 1
+[ERROR] 27-05-2025 01:12:24 [main] LogUtils - FilterByEmployee - Verify that the table has data expected [0] but found [2]
+[INFO] 27-05-2025 01:19:30 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 27-05-2025 01:19:36 [main] LogUtils - TC-22
+[INFO] 27-05-2025 01:19:38 [main] LogUtils - Connected to DB successfully.
+[ERROR] 27-05-2025 01:19:38 [main] LogUtils - Query execution failed. Parameter index out of range (2 > number of parameters, which is 1).
+[ERROR] 27-05-2025 01:19:38 [main] LogUtils - FilterByEmployee - Verify that the table has data expected [0] but found [2]
+[INFO] 27-05-2025 01:20:33 [main] LogUtils - Login and go to TimeSheet page
+[INFO] 27-05-2025 01:20:38 [main] LogUtils - TC-22
+[INFO] 27-05-2025 01:20:39 [main] LogUtils - Connected to DB successfully.
+[INFO] 27-05-2025 01:20:39 [main] LogUtils - Query executed successfully.
+[INFO] 27-05-2025 01:20:39 [main] LogUtils - Connection closed.
+[INFO] 27-05-2025 01:20:39 [main] LogUtils - FilterByEmployee - PASS

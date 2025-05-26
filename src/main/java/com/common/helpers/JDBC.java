@@ -3,10 +3,7 @@ package com.common.helpers;
 import com.common.ultilities.LogUtils;
 import com.common.ultilities.PropertiesFile;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 
 public class JDBC {
     private Connection connection = null;
@@ -51,6 +48,40 @@ public class JDBC {
             LogUtils.error("Cannot close connection. " + e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    // Execute query: SELECT return ResultSet
+    public ResultSet executeQuery(String query, String... params) {
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            for (int i = 0; i < params.length; i++) {
+                preparedStatement.setString(i + 1, params[i]);
+            }
+            resultSet = preparedStatement.executeQuery();
+            LogUtils.info("Query executed successfully.");
+            return resultSet;
+        } catch (Exception e) {
+            LogUtils.error("Query execution failed. " + e.getMessage());
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    // Execute query: INSERT, UPDATE, DELETE return int (number of rows affected)
+    public int executeUpdate(String query, String... params) {
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            for (int i = 0; i < params.length; i++) {
+                preparedStatement.setString(i + 1, params[i]);
+            }
+            int result = preparedStatement.executeUpdate();
+            LogUtils.info("Query executed successfully.");
+            return result;
+        } catch (Exception e) {
+            LogUtils.error("Query execution failed. " + e.getMessage());
+            e.printStackTrace();
+        }
+        return 0;
     }
 
     public ResultSet executeQuery(String query) {

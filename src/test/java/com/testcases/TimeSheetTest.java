@@ -16,6 +16,7 @@ import org.testng.annotations.Listeners;
 import com.common.Constants;
 import org.testng.annotations.Test;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.List;
 
@@ -31,6 +32,8 @@ public class TimeSheetTest extends BaseSetup {
         driver = getDriver();
         loginPage = new LoginPage(driver);
         timeSheetPage = new TimeSheetPage(driver);
+
+
         PropertiesFile.setPropertiesFile();
 
         TestListener.setExcellFile(driver, Constants.TIME_SHEET_PAGE.EXCEL_PATH, Constants.TIME_SHEET_PAGE.SHEET_NAME, 1, 11);
@@ -76,10 +79,12 @@ public class TimeSheetTest extends BaseSetup {
         String tableName = "time_sheet_data";
         try {
             JDBC db = new JDBC(PropertiesFile.getPropValue("db_timeSheet"));
+//            String query =
+//                    "select employee from " + tableName +
+//                    " where employee = '" + name + "'";
             String query =
-                    "select employee from " + tableName +
-                    " where employee = '" + name + "'";
-            ResultSet rs = db.executeQuery(query);
+                    "Select employee From time_sheet_data Where employee = ?";
+            ResultSet rs = db.executeQuery(query, name);
             while (rs.next()) {
                 listNameEmployee_DB.add(rs.getString("employee"));
             }
